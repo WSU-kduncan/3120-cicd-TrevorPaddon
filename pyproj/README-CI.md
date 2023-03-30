@@ -18,6 +18,8 @@ Part 2
 3. To push images to dockerhub you use the command: docker tag image-name trpaddon/3120-cicd:latest.
 4. To create the secrets on github I scrolled down after selecting settings to the secrets and variables tab and selected 'New Repository Secret' and made a secret that contained my username and one that contained my password for dockerhub.
 5. Github Work flow is basically a set of steps that is triggered when a specific command is entered. 
+
+
 Part 3
 
 ![image](https://user-images.githubusercontent.com/77801382/228711516-8353f1ad-7481-4278-965a-d8dd17dce567.png)
