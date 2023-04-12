@@ -90,6 +90,16 @@ docker ps -a | grep $mycontainer | awk '{print $1}' | xargs docker restart
 
 I then made the file executable with the command chmod +x restartcontainer.sh.
 
+
+Installing adnanh Webhook: To install this I ran sudo apt-get install webhook. I then made a file called webhook.json with the following code:
+{
+"id": "my-webhook",
+"execute-command": "/usr/local/bin/restart-container.sh",
+"command-working-directory": "/usr/local/bin/",
+"response-message": "Container restarted successfully"
+}
+To restart I ran the command sudo service webhook.service restart.
+
 Webhook Task File: The webhook task specification file explains how to transfer data to another application when an event or trigger happens in one 
 application. This can be used for a number of things, like automating processes between programs or informing users of significant events. If someone wanted 
 to access your file on your system, I would put it in my etc/systemd/system directory.
