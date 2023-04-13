@@ -106,7 +106,6 @@ to access your file on your system, I would put it in my etc/systemd/system dire
 ```
 
 Part 3 
-```
-![image](https://user-images.githubusercontent.com/77801382/231638675-a40e27b3-db0f-45d2-b8a2-d45d501cb350.png)
 
-```
+![image](https://user-images.githubusercontent.com/77801382/231638755-9dc7722c-c4c2-486e-9b61-799e0f6f6ae9.png)
+
